@@ -1,48 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Marco Zero</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <span>Marco Zero</span>
-        <nav>
-            <ul>
-                <li><a href="index.html">Marco Zero</a></li>
-                <li><a href="esculturas.html">Parque das Esculturas</a></li>
-                <li><a href="frevo.html">Praça do Frevo</a></li>
-            </ul>
-        </nav>
-        <hr>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="menu__link">Marco Zero</a></li>
+          <li>
+            <a href="esculturas.html" class="menu__link"
+              >Parque das Esculturas</a
+            >
+          </li>
+          <li><a href="frevo.html" class="menu__link">Paço do Frevo</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Marco Zero</h1>
-        <h2>Venha conhecer Recife!</h2>
-        <section>
-            <figure>
-                <img src="assets/images/recife-letreiro.jpg" alt="Foto do letreiro grafitado de Recife">
-                <figcaption><i>Letreiro de Recife</i></figcaption>
-            </figure>
-            <p>O <strong>Marco Zero</strong>, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval.</p>
-        </section>
-        <section>
-            <figure>
-                <img src="assets/images/marco-zero.jpg" alt="Foto do Marco Zero na Praça Rio Branco com pessoas caminhando">
-                <figcaption><i>Marco Zero</i></figcaption>
-            </figure>
-            <p>A Praça do Marco Zero tornou-se um ponto de encontro para moradores e visitantes, oferecendo uma vista deslumbrante do rio e das pontes que o atravessam. Rodeado por bares, restaurantes e eventos culturais, o local é um verdadeiro centro de atividade, onde a energia pulsante da cidade encontra seu ponto focal.</p>
-        </section>
-        <p>Aproveite sua visita para observar a vista para o <a href="esculturas.html">Parque das Esculturas</a> e conhecer o <a href="frevo.html">Paço do Frevo</a>.</p>
+      <h1>Marco Zero</h1>
+      <section class="first">
+        <figure>
+          <img
+            src="assets/images/recife-letreiro.jpg"
+            alt="Foto do letreiro grafitado de Recife"
+          />
+          <figcaption>Letreiro de Recife</figcaption>
+        </figure>
+        <p>
+          O <strong>Marco Zero</strong>, na Praça Rio Branco, é conhecido como
+          local de fundação da cidade do Recife e também como ponto inicial de
+          contagem das distâncias calculadas a partir da cidade. O lugar é um
+          dos pontos mais importantes na capital Pernambucana, pois é também uma
+          região de forte movimento durante o Carnaval.
+        </p>
+      </section>
+      <section class="second" id="section__marco-zero">
+        <figure>
+          <img
+            src="assets/images/marco-zero.jpg"
+            alt="Foto do Marco Zero na Praça Rio Branco com pessoas caminhando"
+          />
+          <figcaption>Marco Zero</figcaption>
+        </figure>
+        <p>
+          A Praça do Marco Zero tornou-se um ponto de encontro para moradores e
+          visitantes, oferecendo uma vista deslumbrante do rio e das pontes que
+          o atravessam. Rodeado por bares, restaurantes e eventos culturais, o
+          local é um verdadeiro centro de atividade, onde a energia pulsante da
+          cidade encontra seu ponto focal.
+        </p>
+      </section>
+      <section id="visit">
+        <h2>Venha conhecer Recife Antigo!</h2>
+        <p>
+          Aproveite sua visita para observar a vista para o
+          <a href="esculturas.html">Parque das Esculturas</a> e conhecer o
+          <a href="frevo.html">Paço do Frevo</a>.
+        </p>
+      </section>
     </main>
     <footer>
-        <hr>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-        </ul>
+      <section id="footer__links">
+        <section id="footer__social">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li>
+              <a
+                href="https://facebook.com"
+                class="footer__link"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                class="footer__link"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com"
+                class="footer__link"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section id="footer__tourist">
+          <h3>Conheça a Cidade</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www2.recife.pe.gov.br/servico/atracoes"
+                class="footer__link"
+                target="_blank"
+                >Atrações</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www2.recife.pe.gov.br/servico/programacao-cultural"
+                class="footer__link"
+                target="_blank"
+                >Programação Cultural</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www2.recife.pe.gov.br/servicos/turista"
+                class="footer__link"
+                target="_blank"
+                >Área do Turista</a
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+      <p>
+        Desenvolvido por <a href="https://github.com/viviane-maria">Viviane &#x2764</a>
+      </p>
     </footer>
-</body>
+  </body>
 </html>

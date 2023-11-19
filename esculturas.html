@@ -1,48 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Parque das Esculturas</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <span>Marco Zero</span>
-        <nav>
-            <ul>
-                <li><a href="index.html">Marco Zero</a></li>
-                <li><a href="esculturas.html">Parque das Esculturas</a></li>
-                <li><a href="frevo.html">Praça do Frevo</a></li>
-            </ul>
-        </nav>
-        <hr>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="menu__link">Marco Zero</a></li>
+          <li>
+            <a href="esculturas.html" class="menu__link"
+              >Parque das Esculturas</a
+            >
+          </li>
+          <li><a href="frevo.html" class="menu__link">Paço do Frevo</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Parque das Esculturas Francisco Brennand</h1>
-        <h2>Venha conhecer Recife!</h2>
-        <section>
-            <figure>
-                <img src="assets/images/parque-esculturas.jpg" alt="Foto do Parque das Esculturas, vista do começo do parque">
-                <figcaption><i>Parque das Esculturas</i></figcaption>
-            </figure>
-            <p>O Parque das Esculturas é composto por obras do artista plástico Francisco Brennand e foi inaugurado em 29 de dezembro de 2000 para a comemoração dos 500 anos de descobrimento do Brasil, como parte do projeto “Eu vi o mundo… Ele Começava no Recife”. Foi instalado sobre o molhe do porto. </p>
-        </section>
-        <section>
-            <figure>
-                <img src="assets/images/torre-cristal.jpg" alt="Foto da Torre de Cristal, feita de argila e bronze">
-                <figcaption><i>Torre de Cristal, com 32 metros de altura</i></figcaption>
-            </figure>
-            <p>Tartarugas, pelicanos, ovos, maçarico, pássaros roca e sentinela guardam a principal obra do parque, A Torre de Cristal, inspirada em uma flor descoberta pelo paisagista Roberto Burle Marx. A travessia do Marco Zero até o parque funciona diariamente, das 7h às 17h.</p>
-        </section>
-        <p>Aproveite sua visita para conhecer o <a href="frevo.html">Paço do Frevo</a>.</p>
+      <h1>Parque das Esculturas Francisco Brennand</h1>
+      <section class="first">
+        <figure>
+          <img
+            src="assets/images/parque-esculturas.jpg"
+            alt="Foto do Parque das Esculturas, vista do começo do parque"
+          />
+          <figcaption>Parque das Esculturas</figcaption>
+        </figure>
+        <p>
+          O <strong>Parque das Esculturas</strong> é composto por obras do
+          artista plástico Francisco Brennand e foi inaugurado em 29 de dezembro
+          de 2000 para a comemoração dos 500 anos de descobrimento do Brasil,
+          como parte do projeto “Eu vi o mundo… Ele Começava no Recife”. Foi
+          instalado sobre o molhe do porto.
+        </p>
+      </section>
+      <section class="second" id="section__esculturas">
+        <figure>
+          <img
+            src="assets/images/torre-cristal.jpg"
+            alt="Foto da Torre de Cristal, feita de argila e bronze"
+          />
+          <figcaption>Torre de Cristal, com 32 metros de altura</figcaption>
+        </figure>
+        <p>
+          Tartarugas, pelicanos, ovos, maçarico, pássaros roca e sentinela
+          guardam a principal obra do parque, a
+          <strong>Torre de Cristal</strong>, inspirada em uma flor descoberta
+          pelo paisagista Roberto Burle Marx. A travessia do Marco Zero até o
+          parque funciona diariamente, das 7h às 17h.
+        </p>
+      </section>
+      <section id="visit">
+        <h2>Venha conhecer Recife Antigo!</h2>
+        <p>
+          Aproveite sua visita para conhecer o
+          <a href="frevo.html">Paço do Frevo</a>.
+        </p>
+      </section>
     </main>
     <footer>
-        <hr>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-        </ul>
+      <section id="footer__links">
+        <section id="footer__social">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li>
+              <a
+                href="https://facebook.com"
+                class="footer__link"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                class="footer__link"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com"
+                class="footer__link"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section id="footer__tourist">
+          <h3>Conheça a Cidade</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www2.recife.pe.gov.br/servico/atracoes"
+                class="footer__link"
+                target="_blank"
+                >Atrações</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www2.recife.pe.gov.br/servico/programacao-cultural"
+                class="footer__link"
+                target="_blank"
+                >Programação Cultural</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www2.recife.pe.gov.br/servicos/turista"
+                class="footer__link"
+                target="_blank"
+                >Área do Turista</a
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+      <p>
+        Desenvolvido por <a href="https://github.com/viviane-maria">Viviane &#x2764</a>
+      </p>
     </footer>
-</body>
+  </body>
 </html>

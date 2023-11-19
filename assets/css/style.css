@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  max-width: 100%;
+  background-color: lightcyan;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  position: fixed;
+  top: 0;
+  /* background: linear-gradient(140deg, rgba(175, 238, 238) 0%, rgba(0, 206, 209) 100%); */
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  overflow-y: hidden;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu__link {
+  margin-right: 1rem;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 17px;
+  margin: 0.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+/* Conteúdo */
+main {
+  margin-top: 7rem;
+}
+
+h1 {
+  padding-left: 7rem;
+  color: blue;
+}
+
+.first,
+.second {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.second {
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+#section__marco-zero {
+  background-color: lightsteelblue;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+}
+
+#section__esculturas {
+  background-color: white;
+}
+
+#section__frevo {
+  background-color: palegoldenrod;
+}
+
+#visit {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+img {
+  width: 800px;
+  height: 500px;
+}
+
+figcaption {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif, "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif, Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+p {
+  max-width: 60vw;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Footer */
+footer {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  background-color: darkblue;
+}
+
+#footer__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__social,
+.footer__tourist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  color: #fff;
+  padding: 1rem 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer__social ul,
+.footer__tourist ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer > p {
+  color: #fff;
+  font-size: 12px;
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
